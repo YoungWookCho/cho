@@ -1,6 +1,8 @@
 package com.hanbit.java;
 
+import com.hanbit.animal.Cat;
 import com.hanbit.animal.Dog;
+import com.hanbit.animal.Hamster;
 
 public class Runner {
 
@@ -8,16 +10,15 @@ public class Runner {
 		
 		
 		Dog dog = new Dog("말티즈","흰색");
+		Cat cat = new Cat("시베리안","검정");
+		Hamster ham = new Hamster("햄스더아이","시베리안","검정");
+		ham.setName("");
+		
+		
 		System.out.println(dog);
+		System.out.println(cat);
+		System.out.println(ham);
 		
-		dog.setName("바둑이");
-		dog.setColor("검정에 흰점 좀 찍힌..");
-		
-		System.out.println(Dog.DEFAULT_NAME);
-		
-		System.out.println(dog.getName());
-		System.out.println(dog.getKind());
-		System.out.println(dog.getColor());
 		
 		
 		
