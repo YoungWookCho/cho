@@ -17,7 +17,7 @@ public class FirstClass {
 	}
 	
 	int addNumber(int add){
-		number+=add;
+		number+=add+1;
 		int sum = number;
 		this.sum=sum;
 		return number;
